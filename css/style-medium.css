@@ -1,0 +1,109 @@
+@media screen and (min-width: 768px){
+    /* INICIO swiper */
+    section.programas {
+        height: 26vw;
+    }
+    .swiper {
+        height: 25vw;
+    }
+    /*    FIN swiper */
+
+    /*  INICIO presentación */
+    .presentacion-contenedor-todo {
+        grid-template-columns: 45% 45%;
+    }
+    /*     FIN presentación */
+
+    /* inicio seccion noticas */
+    .noticia-controles {
+        padding-top: 20px;
+    }
+    .noticia-portada{
+        grid-template-columns: 30% calc(70% - 10px);
+        grid-gap: 10px;
+    }
+    /*    fin seccion noticas */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* inicio seccion notas */
+    section.seccion-notas {
+        width: calc(100vw - 20px);
+    }
+    .todas-las-notas {
+        grid-template-columns: 50% 50%;
+    }
+
+    article.nota-contenedor:first-child {
+        grid-column: 1 / 3;
+        grid-template-columns: 65px 55% auto;
+        grid-column-gap: 5px;
+    }
+    article.nota-contenedor:first-child > .nota-portada{ 
+        order: 2;
+        grid-column: initial;
+    }
+    article.nota-contenedor:first-child > .nota-controles {
+        order: 1;
+    }
+    article.nota-contenedor:first-child > .nota-detalles {
+        order: 3;
+    }
+    article.nota-contenedor:first-child > .nota-detalles > h3 {
+        font-size: 1.2rem;
+    }
+    
+    /*   fin  seccion notas */
+
+
+
+
+
+
+
+    /*   INICIO nuestros-programas */
+    .contenedor-portadas-programas {
+        grid-template-columns: 44vw 44vw;
+        grid-gap: 4vw;
+    }
+    .programa-m-portada{
+        max-height: 17vw;
+    }
+
+    .programa-m-mas-detalles {
+        grid-template-columns: 47% 47%;
+        justify-content:space-evenly;
+    }
+    /*      FIN nuestros-programas */
+    
+
+
+    /*   INICIO GRID 2 */
+    .grid-2{
+        grid-template-columns: 53% 44%;
+    }
+    /*      FIN GRID 2 */
+
+
+
+
+    /*    INICIO FOOTER */
+    footer {
+        grid-template-columns: 45% 45%;
+    }
+    footer > div {
+        border-bottom: 0;
+    }
+    /*       FIN FOOTER */
+}

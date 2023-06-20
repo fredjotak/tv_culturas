@@ -1,0 +1,51 @@
+@media screen and (min-width: 1400px){
+    .nuestros-logos{
+        width: var(--max-ventana);
+    }
+    .nuestros-logos > img {
+        height: 124px;
+    }
+
+    /*  INICIO presentación */
+    section.presentacion {
+        width: var(--max-ventana);
+    }
+    .presentacion-imagen {
+        width: 100%;
+    }
+    /*    FIN presentación */
+
+    /* INICIO SECCION PROGRAMAS */
+    section.programas {
+        width: var(--max-ventana);
+        height: 430px;
+        box-sizing: border-box;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 378px/* calc(auto - 2px) */;
+    }
+    /*    FIN SECCION PROGRAMAS */
+
+    /* inicio seccion notas */
+    section.seccion-notas {
+        width: var(--max-ventana);
+    }
+    .todas-las-notas {
+        justify-content: center;
+    }
+    /*   fin seccion notas */
+
+    .programa-m-portada{
+        max-height: 230px;
+    }
+
+
+    /*   INICIO nuestros-programas */
+    .contenedor-portadas-programas {
+        grid-template-columns: 30% 30% 30%;
+    }
+    
+    /*      FIN nuestros-programas */
+}
